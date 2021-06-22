@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		label {
+   position: relative;
+} 
+input.checkbox {
+    opacity: 1;
+    position: absolute;
+}
+
+input.checkbox:checked + span.check {
+     width: 16px;
+     height: 16px;
+     border: 2px solid black;
+     display: inline-block;
+     position: absolute;
+}
+
+.tip {
+	width: 200px;
+	height: 100px;
+	}
+
+.login {
+	float: right;
+}
+
+.logAB {
+	border: 2px solid black;
+	width: 200px;
+	height: 50px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+	</style>
+</head>
+<body>
+
+<div class="login">
+	<h2>Login</h2>
+	<input type="text" name="">
+	<input type="password" name="">	<br>
+	<a href="" text-align:center;> Forgot Password ?</a>
+	<br> <br>
+	<a href="">Home</a>
+	<br>
+	<a href="">Tools</a>
+	<br>
+	<a href="">Resources</a>
+	<br>
+	<a href="">Account Settings</a>
+
+	<!-- ADD function to tell time for the following clocks -->
+	<p> 
+	SERVER TIME: 24:00&emsp;<br>EST TIME: 4:00 AM&emsp;<br>PST TIME: 1:00 AM
+	</p>
+</div>
+
+<h1>Altstory Daily Tracker</h1>
+	<label> Daily Dungeon <input class="checkbox" type="checkbox"> <span class="check"></span> </label>
+	<br>
+	<label> Elite Dungeon <input class="checkbox" type="checkbox"> <span class="check"></span> </label>
+	<br>
+	<label> Guild Check <input class="checkbox" type="checkbox"> <span class="check"></span> </label>
+	<br>
+	<label> Elite Dungeon(3x Clear + Guild 15 Attendance Check) <input class="checkbox" type="checkbox"> <span class="check"></span> </label>
+	<br>
+	<label> Pyramid** <input class="checkbox" type="checkbox"> <span class="check"></span> </label> 
+	<br>
+	<label> Mu Lung <input class="checkbox" type="checkbox"> <span class="check"></span> </label>
+	<br>
+	<label> Pirate <input class="checkbox" type="checkbox"> <span class="check"></span> </label>
+	<br> <br>
+
+<div class="tip">
+<p>*After these are finished, claim red mesos from daily login and create a party for 10 Daily Mission. **You can also enter pirate and leave it to finish the daily mission. </p>
+</div>
+
+
+
+<h1>Party Builder</h1>
+<p> 
+	Enter time for auto-battle 
+	<br>
+	<input type="text" name="">
+	<button>Submit</button> 
+	<br>
+	For which character are you auto-battling for ? <br>
+	<div class="logAB">
+		Auto-battle started at 4:00 AM <br>
+		Auto-battle ends at 6:00 AM 
+	</div>
+</p>
+
+<h2>Party</h2>
+<!-- Depending on  -->
+<select>
+	<option>Party one</option>
+	<option>Alts</option>
+</select>
+
+
+<table>
+<tr>
+	<th>Character</th>
+	<th>Level</th>
+	<th>Class</th>
+	<th>AB Start</th>
+	<th>AB End</th>
+</tr>
+<tr>
+	<th>DexlessSIN</th>
+	<th>121</th>
+	<th>Night Lord</th>
+	<th>4:01 PM EST</th>
+	<th>7:23 PM EST</th>
+</tr>
+</table>
+</body>
+</html>
